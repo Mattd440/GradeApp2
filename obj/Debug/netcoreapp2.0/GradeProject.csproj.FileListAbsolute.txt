@@ -1,0 +1,10 @@
+/Users/matt/Projects/GradeProject/GradeProject/bin/Debug/netcoreapp2.0/GradeProject.deps.json
+/Users/matt/Projects/GradeProject/GradeProject/bin/Debug/netcoreapp2.0/GradeProject.runtimeconfig.json
+/Users/matt/Projects/GradeProject/GradeProject/bin/Debug/netcoreapp2.0/GradeProject.runtimeconfig.dev.json
+/Users/matt/Projects/GradeProject/GradeProject/bin/Debug/netcoreapp2.0/GradeProject.dll
+/Users/matt/Projects/GradeProject/GradeProject/bin/Debug/netcoreapp2.0/GradeProject.pdb
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.csproj.CoreCompileInputs.cache
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.AssemblyInfoInputs.cache
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.AssemblyInfo.cs
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.dll
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.pdb
