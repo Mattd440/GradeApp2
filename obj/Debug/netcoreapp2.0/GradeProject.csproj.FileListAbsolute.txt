@@ -8,3 +8,4 @@
 /Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.AssemblyInfo.cs
 /Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.dll
 /Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.pdb
+/Users/matt/Projects/GradeProject/GradeProject/obj/Debug/netcoreapp2.0/GradeProject.csprojResolveAssemblyReference.cache

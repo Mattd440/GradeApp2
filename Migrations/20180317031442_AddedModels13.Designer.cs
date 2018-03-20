@@ -11,9 +11,10 @@ using System;
 namespace GradeProject.Migrations
 {
     [DbContext(typeof(GradeContext))]
-    partial class GradeContextModelSnapshot : ModelSnapshot
+    [Migration("20180317031442_AddedModels13")]
+    partial class AddedModels13
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,7 +32,7 @@ namespace GradeProject.Migrations
                     b.Property<string>("AssignmentGrade")
                         .IsRequired();
 
-                    b.Property<int>("StudentId");
+                    b.Property<int?>("StudentId");
 
                     b.Property<string>("Title")
                         .IsRequired();
@@ -73,7 +74,7 @@ namespace GradeProject.Migrations
                     b.Property<string>("AssignmentGrade")
                         .IsRequired();
 
-                    b.Property<int>("StudentId");
+                    b.Property<int?>("StudentId");
 
                     b.Property<string>("Title")
                         .IsRequired();
@@ -92,16 +93,14 @@ namespace GradeProject.Migrations
                 {
                     b.HasOne("GradeProject.Models.Student", "Student")
                         .WithMany()
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("StudentId");
                 });
 
             modelBuilder.Entity("GradeProject.Models.Test", b =>
                 {
                     b.HasOne("GradeProject.Models.Student", "Student")
                         .WithMany()
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("StudentId");
                 });
 #pragma warning restore 612, 618
         }

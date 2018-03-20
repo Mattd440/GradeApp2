@@ -11,9 +11,10 @@ using System;
 namespace GradeProject.Migrations
 {
     [DbContext(typeof(GradeContext))]
-    partial class GradeContextModelSnapshot : ModelSnapshot
+    [Migration("20180319053152_ModelUpdate")]
+    partial class ModelUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -9,7 +9,11 @@ namespace GradeProject.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Major { get; set; }
+
+
         public ICollection<Assignment> Assignments { get; set; }
+
+        public Student(){ }
 
         public Student(string first, string last, string major)
         {
@@ -46,17 +50,12 @@ namespace GradeProject.Models
             return student;
         }
 
-        // checks if the student id entered is valid
-        public static bool StudentExists(int id)
-        {
-            if (id <= SId)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-    }
+       
+		public override string ToString()
+		{
+            return String.Format(
+              "ID: {0} , Last Name: {1} , First Name: {2} , Major: {3} ",
+                this.Id, this.LastName, this.FirstName, this.Major);
+		}
+	}
 }

@@ -11,14 +11,18 @@ namespace GradeProject.Models
         //Class AssignmentClass { get; set; }
         //Student Student { get; set; }
        
+        public Homework(){}
         public Homework(Grade grd, string title, Class cl, Student std) 
         {
             base.Type = "Homework";
-            base.AssignmentGrade = grd;
+            base.AssignmentGrade = GradeExtension.GetGradeString(grd);
             base.Title = title;
-            base.AssignmentClass = cl;
-            base.Student = std;
+            base.AssignmentClass = ClassExtension.GetClassName(cl);
+            //base.Student = std;
+            base.StudentId = std.Id;
         }
+
+       
 
     }
 }
